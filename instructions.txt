@@ -1,0 +1,8 @@
+To excecute the files on the login node, run the following commands.
+
+To compile the file:
+gcc -fopenmp -o mandelbrot mandelbrot.c
+
+To run the program:
+OMP_NUM_THREADS=4 ./mandelbrot (With 4 threads)
+OMP_NUM_THREADS=28 ./mandelbrot (With 28 threads)
